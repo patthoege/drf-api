@@ -64,7 +64,11 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 # DEBUG = True
 DEBUG = 'DEV' in os.environ
 
-ALLOWED_HOSTS = ['8000-patthoege-drfapi-h8c0hypotei.ws-eu107.gitpod.io','https://drfi-api-a41e37271e42..herokuapp.com']
+ALLOWED_HOSTS = [
+    '8000-patthoege-drfapi-h8c0hypotei.ws-eu107.gitpod.io',
+    'https://drfi-api-a41e37271e42..herokuapp.com',
+    'localhost',
+    ]
 
 
 # Application definitions
