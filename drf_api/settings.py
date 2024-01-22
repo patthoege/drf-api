@@ -67,7 +67,7 @@ DEBUG = 'DEBUG' in os.environ
 
 ALLOWED_HOSTS = [
     '8000-patthoege-drfapi-h8c0hypotei.ws-eu107.gitpod.io',
-    os.environ.get('https://drfi-api-a41e37271e42..herokuapp.com'),
+    'drfi-api-a41e37271e42.herokuapp.com'
     'localhost',
     ]
 
